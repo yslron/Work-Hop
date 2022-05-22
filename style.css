@@ -31,6 +31,12 @@
 .col{
     border: #ff0000 1px solid;
 } */
+.btn-disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .btn-main-color{
     width: auto;
     background-color: #32CD32 !important;
