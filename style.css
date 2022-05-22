@@ -1,0 +1,131 @@
+.nav-link{
+    color: #062C35;
+}
+.nav-link:hover{
+    color: #01090a;
+}
+.main-color{
+    color: #32CD32;
+}
+.second-color{
+    color: #062C35; 
+}
+.white-color{
+    color: white;
+}
+.main-bgcolor{
+    background-color: #20e420 !important;
+}
+.second-bgcolor{
+    background-color: #062C35 !important; 
+}
+.translate-white{
+    filter: brightness(0) invert(1);
+}
+/* .container, .container-fluid{
+    border: #188321 1px solid;
+}
+.row{
+    border: #2600ff 1px solid;
+}
+.col{
+    border: #ff0000 1px solid;
+} */
+.btn-main-color{
+    width: auto;
+    background-color: #32CD32 !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: round;
+    background-color: #32CD32 !important;
+}
+.btn-main-color:hover{
+    width: auto;
+    background-color: #32CD32 !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: round;
+    background-color: #175e17 !important;
+}
+
+.btn-second-color{
+    width: auto;
+    color: #ffffff !important;
+    border: #062C35 1px solid !important;
+    border-radius: round;
+    background-color: #062C35 !important;
+}
+.btn-second-color:hover{
+    width: auto;
+    color: #ffffff !important;
+    border: #062C35 1px solid !important;
+    border-radius: round;
+    background-color: #04171b !important;
+}
+/* Carousel */
+
+@-webkit-keyframes scroll {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+    }
+    }
+    @keyframes scroll {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+    }
+    }
+    .slider {
+    background: pr;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    }
+    .slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+    }
+    .slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+    }
+    .slider::before {
+    left: 0;
+    top: 0;
+    }
+    .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    }
+    .slider .slide {
+    height: 100px;
+    width: 250px;
+    }
+
+/* QR CODE STYLE*/
+.qrdiv {
+	text-align: center;
+}
+
+.qrcode {
+	margin: 30px 0;
+}
+
